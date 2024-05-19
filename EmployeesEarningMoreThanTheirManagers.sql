@@ -8,6 +8,7 @@ create table Employee(
     managerId int,
     primary key (id)
 );
+
 insert into Employee values
 (1, "Joe", 70000, 3),
 (2, "Henry", 80000, 4),

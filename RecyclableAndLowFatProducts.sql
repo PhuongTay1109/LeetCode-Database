@@ -1,6 +1,11 @@
 create database recyclable_and_low_fat_products;
 use recyclable_and_low_fat_products;
 
+-- enum syntax
+-- CREATE TABLE table_name (
+--     column_name ENUM('value1', 'value2', 'value3', ...)
+-- );
+
 create table Products (
 	product_id int,
     low_fats enum('Y', 'N'),

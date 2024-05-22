@@ -18,4 +18,4 @@ insert into Customer values
 
 select name
 from Customer
-where referee_id != 2 or referee_id is null;
+where referee_id <> 2 or referee_id is null;

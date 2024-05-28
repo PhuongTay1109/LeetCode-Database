@@ -13,6 +13,7 @@ insert into Tweets values
 
 -- LENGTH() returns the length of the string measured in bytes.
 -- CHAR_LENGTH() returns the length of the string measured in characters.
+-- can use both in this exercise
 select tweet_id
 from Tweets
 where char_length(content) > 15;
